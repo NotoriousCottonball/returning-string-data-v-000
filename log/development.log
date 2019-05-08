@@ -1883,3 +1883,34 @@ Cannot render console from 70.170.70.9! Allowed networks: 127.0.0.1, ::1, 127.0.
 Processing by Rails::WelcomeController#index as HTML
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (1.4ms)
 Completed 200 OK in 16ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 70.170.70.9 at 2019-05-08 05:00:58 +0000
+Cannot render console from 70.170.70.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/_post.html.erb (0.4ms)
+  Rendered posts/_post.html.erb (0.1ms)
+  Rendered posts/_post.html.erb (0.1ms)
+  Rendered posts/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 409ms (Views: 405.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 70.170.70.9 at 2019-05-08 05:00:59 +0000
+Cannot render console from 70.170.70.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 70.170.70.9 at 2019-05-08 05:00:59 +0000
+Cannot render console from 70.170.70.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 70.170.70.9 at 2019-05-08 05:00:59 +0000
+Cannot render console from 70.170.70.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 70.170.70.9 at 2019-05-08 05:00:59 +0000
+Cannot render console from 70.170.70.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 70.170.70.9 at 2019-05-08 05:00:59 +0000
+Cannot render console from 70.170.70.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
